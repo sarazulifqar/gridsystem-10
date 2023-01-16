@@ -1,0 +1,156 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+.assign{
+    width: 713px;
+    background-color: #ff7089;
+    border-radius: 30px 30px 30px 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.assign p{
+	color: white;
+    padding: 151px 253px;
+    font-size: 30px;
+    border-radius: 21px;
+}
+
+  .para{	
+    width: 713px;
+    boder-radius: 20px;
+    background-color: #099fb2;
+    color: white;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    margin: auto;
+        margin-top: 30px;
+}
+.para p{
+	font-size: 17px;
+	padding: 56px;
+	line-height: 1.6;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    gap: 8px 113px;
+    justify-content: center;
+        margin-top: 20px;
+}
+
+.assign7{
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.head{
+
+    width: 713px;
+    boder-radius: 20px;
+    background-color: grey;
+    align-items: center;
+    color: white;
+    border-radius: 30px 30px 30px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+        margin-top: 20px;
+}
+
+	.form{
+            padding: 36px;
+             line-height: 1.6;
+             font-size: 17px;
+	}
+	.para4{
+            padding: 77px;
+            line-height: 1.6;
+            font-size: 17px;
+	}
+	.para3{
+		 line-height: 1.6;
+            font-size: 17px;
+	}
+	.button{
+	
+		padding: 4px 11px;
+    margin: 20px 79px;
+	}
+	.navbar{
+
+	 text-align: right;
+         margin-top: 20px;
+	 }
+   .navbar ul{
+      	display:flex;
+       list-style-type: none;
+       color:#099fb2;
+        justify-content: right;
+   }
+   .navbar li{
+       width: 100px;
+       padding: 15px;
+    }
+    .navbar a{
+       text-decoration: none;
+       color:#099fb2;
+    }
+    .pointer{
+
+    }
+    @media screen and (max-width:450px){
+        body{
+            display: block;
+            width: 100%;
+        }
+       .media{
+          height: auto;
+
+    }
+    .para{
+        display: flex;
+        flex-direction: column;
+    }
+     .para p{
+        font-size: 30px;
+        padding: 25px;
+    }
+    .navbar{
+        padding-left: 532px;
+    font-size: 28px;
+    }
+     .navbar ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     }
+     .container{
+              display: flex;
+              flex-direction: column;
+              height: auto;
+              grid-gap: 20px;
+     }
+
+ .assign7{
+        width: 725px;
+    height: 495px;
+    object-fit: cover;
+       
+    }
+    .head{
+        display: flex;
+        flex-direction: column;
+     }
+     .size{
+        font-size: 39px;
+     }
+     .assign p{
+     font-size: 65px;
+    }
